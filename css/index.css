@@ -1,0 +1,158 @@
+.container{
+width: 100%;
+background-color: #f1f1f7;
+}
+nav .row{
+background-color:black;
+}
+.nav-col-30{
+background-color:black;
+display: inline-block;
+width:25%;
+vertical-align: top;
+padding:20px;
+}
+
+.nav-col-70{
+background-color: black;
+display: inline-block;
+width:70%;
+/*To make child ul pos:abs*/
+position: relative;
+}
+.nav-col-70 ul{
+list-style: none;
+position: absolute;
+right: 0;
+}
+.nav-col-70 ul li{
+display: inline-block;
+padding: 15px;
+}
+.nav-col-70 ul li a{
+text-decoration: none;
+color:white;
+font-size: 20px;
+}
+.wall-col-100{
+background-image: url("../images/wall.jpg");
+background-size: cover;
+width:100%;
+box-shadow: 0 0 10px #aaa;
+height: 443px;
+}
+.stories-col-90{
+background-color: white;
+width: 90%;
+margin: auto;
+box-shadow: 0 0 10px #aaa;
+margin-top: 20px;
+position: relative;
+text-align:center;
+}
+
+.stories-col-90 div,p,h2,h4{
+    display: inline-block;
+    
+}
+
+.stories-logo{
+width: 25%;
+}
+.stories-story{
+    display: inline-block;
+    width: 48%;
+    }
+.stories-story h2,h4{
+color:#1f475e
+}
+.stories-read{
+    width: 25%;
+    }
+
+.stories-col-90 .stories-btn{
+border-style: none;
+background-color:#70d8eb;
+color:white;
+box-shadow: 0 0 10px #aaa;
+padding:15px;
+position: absolute;
+top:35%;
+right:25px;
+font-size:15px;
+border-radius:3px;
+cursor: pointer;
+}
+
+.services-col-90{
+width:90%;
+margin:auto;
+margin-top: 20px;
+}
+
+.services-col-90 .row{
+text-align: center;
+}
+
+.services-col-24{
+display: inline-block;
+background-color: white;
+width:24.7%;
+margin: auto;
+/*height:200px;*/
+}
+.services-component{
+background-color: white;
+width:98%;
+margin: auto;
+box-shadow: 0 0 10px #aaa;
+/*height:180px;*/
+}
+.services-component p i{
+font-size:65px;
+color:#a1dbf3;
+}
+.services-component h3{
+text-align: center;
+margin:3px;
+}
+.services-btn{
+border-style: none;
+background-color:#1f475e;
+color:white;
+box-shadow: 0 0 10px #aaa;
+padding:15px;
+font-size:15px;
+border-radius:3px;
+cursor: pointer;
+}
+
+.footer-parent{
+text-align: center;
+background-color:black;
+}
+
+.footer-parent .footer-col-60{
+display:inline-block;
+background-color:black;
+color: white;
+width:59%;
+}
+
+.footer-parent .footer-col-40{
+display:inline-block;
+background-color:black;
+color: white;
+width:39%;
+}
+.footer-parent .footer-col-40 iframe{
+width:99%;
+}
+.footer-parent .footer-col-60 p,h2,h4{
+display:block;
+color: white;
+padding: 5px;
+}
+.footer-parent .footer-col-60 i{
+color:#f2e496;
+}
